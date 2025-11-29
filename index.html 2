@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DPF — Danson Poultry Farm: Ufugaji wa kuku, mayai, bata, dawa, vifaa, na mafunzo Mara, Tanzania. Bei: Mayai 1 tray = TZS 25,000. Piga simu: 0776 011 896.">
+  <meta name="keywords" content="DPF, Danson Poultry Farm, ufugaji wa kuku Mara, mayai Mara, kuku wa nyama, bata, dawa za kuku, vifaa vya kuku, mafunzo ya ufugaji">
+  <meta name="author" content="Danson Sanga">
+  <meta name="geo.placename" content="Mara, Tanzania">
+  <meta name="geo.region" content="TZ">
+  <title>DPF | Danson Poultry Farm — Ufugaji wa Kuku na Mayai, Mara Tanzania</title>
+
+  <!-- Structured Data kwa ajili ya Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AgriculturalBusiness",
+    "name": "DPF — Danson Poultry Farm",
+    "image": "https://dansanga.github.io/dpf/images/logo.jpg",
+    "description": "Biashara ya kienyeji ya ufugaji wa kuku, mayai, na bata Mara, Tanzania.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Barabara ya Serengeti",
+      "addressLocality": "Mara",
+      "addressRegion": "TZ",
+      "addressCountry": "TZ"
+    },
+    "telephone": "+255776011896",
+    "url": "https://dansanga.github.io/dpf",
+    "sameAs": [
+      "https://www.facebook.com/share/18Gxj9aXwy/"
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "07:00",
+      "closes": "18:00"
+    },
+    "priceRange": "TZS",
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Mayai ya Kuku (1 tray)"
+        },
+        "price": "25000",
+        "priceCurrency": "TZS"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Kuku Broiler (1 kg)"
+        },
+        "price": "4500",
+        "priceCurrency": "TZS"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Segoe UI',Tahoma,sans-serif;line-height:1.6;color:#333;background:#f9fbf8}
+    .container{width:90%;max-width:1200px;margin:0 auto;padding:0 
