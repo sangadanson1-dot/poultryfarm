@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PoultryFarm — Danson Sanga: Uuzaji wa kuku, mayai, dawa za kuku, mafunzo ya ufugaji wa kuku, na ushauri wa kilimo cha kuku nchini Tanzania.">
+  <meta name="keywords" content="PoultryFarm, Danson Sanga, ufugaji wa kuku Tanzania, kuku wa mayai, kuku wa nyama, mayai, dawa za kuku, uchunguzi wa kuku">
+  <meta name="author" content="Danson Sanga">
+  <meta name="geo.placename" content="Tanzania">
+  <meta name="geo.region" content="TZ">
+  <title>PoultryFarm | Danson Sanga — Ufugaji wa Kuku Tanzania</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                  url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400"><rect width="800" height="400" fill="%23D32F2F"/><text x="50%" y="50%" text-anchor="middle" fill="white" font-size="36" font-family="Arial">🐔 PoultryFarm — Tanzania</text></svg>') 
+                  no-repeat center center / cover;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 0 20px;
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1.2rem;
+    }
+    p.hero-text {
+      font-size: 1.3rem;
+      max-width: 800px;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      background-color: #D32F2F;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 50px;
+      margin: 10px;
+      transition: all 0.3s;
+    }
+    .btn:hover {
+      background-color: #B71C1C;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(211,47,47,0.4);
+    }
+    .btn-outline {
+      background-color: transparent;
+      border: 2px solid white;
+    }
+    section {
+      padding: 70px 0;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2.2rem;
+      color: #D32F2F;
+      margin-bottom: 40px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: all 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    .card h3 {
+      color: #1565C0;
+      margin-bottom: 15px;
+      font-size: 1.4rem;
+    }
+    .about {
+      background-color: #ffebee;
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 14px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      width: 100%;
+      padding: 14px;
+      background: #1565C0;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background: #0D47A1;
+    }
+    footer {
+      background-color: #212529;
+      color: #adb5bd;
+      text-align: center;
+      padding: 30px 0;
+    }
+    footer a {
+      color: #64B5F6;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      h1 { font-size: 2.2rem; }
+      p.hero-text { font-size: 1.1rem; }
+      .btn { padding: 12px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🐔 PoultryFarm</h1>
+    <p class="hero-text">Huduma bora za <strong>ufugaji wa kuku</strong>, <strong>uuzaji wa mayai na kuku</strong>, <strong>dawa za kuku</strong>, na <strong>mafunzo ya kilimo cha kuku</strong> nchini Tanzania.</p>
+    <p class="hero-text"><strong>Danson Sanga</strong> — Mtaalamu wa ufugaji wa kuku na usimamizi wa shamba la kuku.</p>
+    <a href="tel:+255776011896" class="btn">📞 Piga simu: 0776 011 896</a>
+    <a href="#contact" class="btn btn-outline">✉️ Tuma ujumbe</a>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Huduma Zetu</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>🐓 Uuzaji wa Kuku</h3>
+          <p>Kuku wa mayai (layers) na kuku wa nyama (broilers) wenye ubora, afya, na uwezo wa uzalishaji mzuri. Tunatoa kwa wafugaji wote — wadogo na wakubwa.</p>
+        </div>
+        <div class="card">
+          <h3>🥚 Uuzaji wa Mayai</h3>
+          <p>Mayai ya kwanza, safi, na yenye ubora wa juu. Tunatoa kwa muda mrefu kwa washirika wa biashara.</p>
+        </div>
+        <div class="card">
+          <h3>💊 Dawa & Uchunguzi</h3>
+          <p>Dawa bora za kuku, usimamizi wa maradhi, na uchunguzi wa homa, Newcastle, na Gumboro. Pamoja na ushauri wa kuzuia magonjwa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2 class="section-title">Kuhusu Danson Sanga</h2>
+      <p style="text-align:center; font-size:1.2rem; margin-bottom:30px;">
+        Mimi ni <strong>Danson Sanga</strong>, mtaalamu wa ufugaji wa kuku nchini Tanzania. 
+        Nimefanya kazi kwa miaka mingi kutoa mafunzo, dawa, na ushauri kwa wafugaji wa kuku wote.
+        Lengo langu ni kuwasaidia kuongeza uzalishaji wa mayai na nyama ya kuku kwa njia ya salama na faida.
+      </p>
+      <div style="background:white; padding:25px; border-radius:12px; max-width:600px; margin:0 auto; text-align:center; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h3 style="color:#D32F2F; margin-bottom:15px;">Wasiliana Nami</h3>
+        <p>📧 <a href="mailto:sangadanson1@gmail.com" style="color:#1565C0;">sangadanson1@gmail.com</a></p>
+        <p>📱 <a href="tel:+255776011896" style="color:#D32F2F;">0776 011 896</a> | <a href="tel:+255793292245" style="color:#D32F2F;">0793 292 245</a></p>
+        <p>📘 <a href="https://www.facebook.com/share/18Gxj9aXwy/" target="_blank" style="color:#1565C0;">Tazama Facebook yangu</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Tuma Ujumbe</h2>
+      <p style="text-align:center; margin-bottom:30px; font-size:1.1rem;">
+        Tafadhali jaza fomu hii — nitakurejesha haraka iwezekanavyo.
+      </p>
+      <form class="contact-form" action="https://formspree.io/f/mlekjzla" method="POST">
+        <input type="text" name="jina" placeholder="Jina lako" required>
+        <input type="email" name="barua" placeholder="Barua pepe yako" required>
+        <input type="tel" name="simu" placeholder="Namba ya simu (hiari)">
+        <textarea name="ujumbe" rows="5" placeholder="Andika ujumbe wako hapa..." required></textarea>
+        <button type="submit">Tuma Ujumbe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year">2025</span> PoultryFarm — Danson Sanga | Tanzania</p>
+      <p>Ufugaji wa kuku wenye ubora, mayai safi, na ushauri wa kisasa kwa wafugaji wa Tanzania.</p>
+      <p><a href="#">⬆️ Rejesha juu</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    document.querySelector('footer a').addEventListener('click', function(e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          window.scrollTo({
+            top: target.offsetTop - 20,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+
+</body>
+  </html>
